@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-shopearnclient-dev-180016-authRole",
+      "UnauthRoleArn": "arn:aws:iam::178774115417:role/amplify-shopearnclient-dev-180016-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::178774115417:role/amplify-shopearnclient-dev-180016-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-shopearnclient-dev-180016-deployment",
+      "UnauthRoleName": "amplify-shopearnclient-dev-180016-unauthRole",
+      "StackName": "amplify-shopearnclient-dev-180016",
+      "StackId": "arn:aws:cloudformation:eu-west-1:178774115417:stack/amplify-shopearnclient-dev-180016/c8667470-cb97-11eb-9d0e-0613cf283e09",
+      "AmplifyAppId": "d2nuwamo7ix4gj"
+    },
+    "categories": {
+      "function": {
+        "shopearnclientc3c850b4c3c850b4PostConfirmation": {
+          "deploymentBucketName": "amplify-shopearnclient-dev-180016-deployment",
+          "s3Key": "amplify-builds/shopearnclientc3c850b4c3c850b4PostConfirmation-6a586365543771374e56-build.zip"
+        }
+      },
+      "auth": {
+        "shopearnclientc3c850b4c3c850b4": {}
+      }
+    }
+  }
+}

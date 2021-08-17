@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "custom"
+  ],
+  "parentResource": "shopearnclientc3c850b4c3c850b4",
+  "functionName": "shopearnclientc3c850b4c3c850b4PostConfirmation",
+  "resourceName": "shopearnclientc3c850b4c3c850b4PostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "C:\\Users\\Pawel.DESKTOP-GIF43GJ\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "shopearnclientc3c850b4c3c850b4PostConfirmation",
+  "skipEdit": true,
+  "enableCors": false
+}

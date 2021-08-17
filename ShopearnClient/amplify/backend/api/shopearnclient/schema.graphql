@@ -1,0 +1,39 @@
+type User @model {
+  id: ID!
+  username: String!
+  email: String!
+
+  adverts: [Advert] @connection(keyName: "byUser", fields: ["id"])
+}
+
+type Car @model {
+  id: ID!
+  type: String!
+  latitude: Float
+  longitude: Float
+  heading: Float
+
+  adverts: [Advert] @connection(keyName: "byCar", fields: ["id"])
+}
+
+type Advert
+  @model
+  @key(name: "byUser", fields: ["userId"])
+  @key(name: "byCar", fields: ["carId", "createdAt"]) {
+  id: ID!
+  createdAt: ID!
+
+  userId: ID!
+  user: User @connection(fields: ["userId"])
+
+  carId: ID!
+  car: Car @connection(fields: ["carId"])
+
+  typ: String!
+  request: String!
+  price: Float!
+  contact: Int!
+  time: String!
+  latitude: Float!
+  longitude: Float!
+}
