@@ -1,7 +1,7 @@
 # ShopernClone
 I made a clone of my project to protect the API Keys ;)
-Goal of the project
-With a pleasure I will talk about a code on a job interview.
+
+
 ShopEarn app is used to post announcements for making grocery shopping. The application has two interfaces, one for adding orders and next one for the driver. You can save a lot of daily time by ordering someone to make purchases!
 
 Main functionality
